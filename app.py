@@ -70,7 +70,7 @@ st.title("🎓 Student Performance Prediction")
 #with open("student_pipeline.pkl", "rb") as f:
 #    pipeline = cloudpickle.load(f)
     
-pipeline = joblib.load("rf_pipeline.joblib")  
+pipeline = joblib.load("xgb_smote_pipeline.joblib")  
 
 # 2. Sidebar inputs untuk setiap fitur
 st.sidebar.header("Input Student Features")
